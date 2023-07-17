@@ -18,7 +18,7 @@ function App() {
           />
           <div className="head-cv">
             <h1>Storm Harris-Studdart</h1>
-            <h3>Welcome to My Portfolio</h3>
+            <h3>Portfolio</h3>
             <p>
               Tēnā koe!🌻 as a trained junior software engineer, I bring a
               unique blend of senior leadership experience and a background in
@@ -27,15 +27,29 @@ function App() {
               far!
             </p>
             <button className="buttons">
-              <a href="../client/Images/Storm Resume 2023.pdf" download>
+              <a
+                style={{ textDecoration: 'none', color: 'whitesmoke' }}
+                href="../client/Images/Storm Resume 2023.pdf"
+                download
+              >
                 CV
               </a>
             </button>
             <button className="buttons">
-              <a href={linkedUrlLinkedin}>LinkedIn</a>
+              <a
+                style={{ textDecoration: 'none', color: 'whitesmoke' }}
+                href={linkedUrlLinkedin}
+              >
+                LinkedIn
+              </a>
             </button>
             <button className="buttons">
-              <a href={linkedUrlGitHub}>GitHub</a>
+              <a
+                style={{ textDecoration: 'none', color: 'whitesmoke' }}
+                href={linkedUrlGitHub}
+              >
+                GitHub
+              </a>
             </button>
           </div>
         </div>
@@ -43,10 +57,20 @@ function App() {
       <div className="projects">
         <h2>Current Projects:</h2>
         <button className="buttons">
-          <a href={linkedUrlToDo}>To Do To Day</a>
+          <a
+            style={{ textDecoration: 'none', color: 'whitesmoke' }}
+            href={linkedUrlToDo}
+          >
+            To Do To Day
+          </a>
         </button>
         <button className="buttons">
-          <a href={linkedUrlApprendre}>Apprendre Le Francais</a>
+          <a
+            style={{ textDecoration: 'none', color: 'whitesmoke' }}
+            href={linkedUrlApprendre}
+          >
+            Apprendre Le Francais
+          </a>
         </button>
       </div>
     </>
