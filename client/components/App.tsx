@@ -18,7 +18,7 @@ function App() {
           />
           <div className="head-cv">
             <h1>Storm Harris-Studdart</h1>
-            <h3>Portfolio</h3>
+            <h2>Portfolio</h2>
             <p>
               Tēnā koe!🌻 as a trained junior software engineer, I bring a
               unique blend of senior leadership experience and a background in
