@@ -55,7 +55,8 @@ function App() {
         </div>
       </div>
       <div className="projects">
-        <h2>Current Projects:</h2>
+        <h2 className="break">Current Projects:</h2>
+
         <button className="buttons">
           <a
             style={{ textDecoration: 'none', color: 'whitesmoke' }}
@@ -64,6 +65,12 @@ function App() {
             To Do To Day
           </a>
         </button>
+        <p className="description-p">
+          To Do To Day: A fun To Do list app. When I came up with the idea I
+          wanted a simple, playful to do list that I would actually use each
+          day. My idea was chosen by a team for final project at Dev, it was a
+          fantastic team experience to bring it to life.
+        </p>
         <button className="buttons">
           <a
             style={{ textDecoration: 'none', color: 'whitesmoke' }}
@@ -72,6 +79,14 @@ function App() {
             Apprendre Le Francais
           </a>
         </button>
+        <p className="description-p">
+          Apprendre Le Francais: A personal ongoing project! I'm off to france
+          until November 28th and I want to learn french. I also want to keep
+          coding, so I created Apprendre le Francais so I can learn not just
+          french but coding languages as well. On this app you can imput what
+          you learn ad well as testing yourself on your ever growing french.
+          Check it out!
+        </p>
       </div>
     </>
   )
