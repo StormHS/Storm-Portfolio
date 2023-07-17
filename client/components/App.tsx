@@ -40,13 +40,15 @@ function App() {
           </div>
         </div>
       </div>
-      <h2>Current Projects:</h2>
-      <button className="buttons">
-        <a href={linkedUrlToDo}>To Do To Day</a>
-      </button>
-      <button className="buttons">
-        <a href={linkedUrlApprendre}>Apprendre Le Francais</a>
-      </button>
+      <div className="projects">
+        <h2>Current Projects:</h2>
+        <button className="buttons">
+          <a href={linkedUrlToDo}>To Do To Day</a>
+        </button>
+        <button className="buttons">
+          <a href={linkedUrlApprendre}>Apprendre Le Francais</a>
+        </button>
+      </div>
     </>
   )
 }
