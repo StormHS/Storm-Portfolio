@@ -4,7 +4,7 @@ function App() {
   //   const { data } = useFruits()
   const linkedUrlLinkedin = `https://www.linkedin.com/in/storm-harris-studdart-803930208/`
   const linkedUrlGitHub = `https://github.com/StormHS?tab=repositories`
-  const linkedUrlApprendre = `https://github.com/StormHS/Apprendre-le-Francais/tree/main`
+  const linkedUrlApprendre = `http://stormlefrancais.devacademy.nz/`
   const linkedUrlToDo = `https://to-do-to-day.pushed.nz/`
 
   return (
