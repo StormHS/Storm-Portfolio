@@ -3,6 +3,9 @@
 function App() {
   //   const { data } = useFruits()
   const linkedUrlLinkedin = `https://www.linkedin.com/in/storm-harris-studdart-803930208/`
+  const linkedUrlGitHub = `https://github.com/StormHS?tab=repositories`
+  const linkedUrlApprendre = `https://github.com/StormHS/Apprendre-le-Francais/tree/main`
+  const linkedUrlToDo = `https://to-do-to-day.pushed.nz/`
 
   return (
     <>
@@ -16,19 +19,23 @@ function App() {
           <div className="head-cv">
             <h1>Storm Harris-Studdart</h1>
             <button className="buttons">CV</button>
+            <button className="buttons">
+              <a href={linkedUrlLinkedin}>LinkedIn</a>
+            </button>
+            <button className="buttons">
+              <a href={linkedUrlGitHub}>GitHub</a>
+            </button>
           </div>
         </div>
-        <button>
-          <a href={linkedUrlLinkedin} className="buttons">
-            LinkedIn
-          </a>
-        </button>{' '}
-        <button className="buttons">Github</button>
-        <h2>Current Projects</h2>
-        <button className="buttons">Apprendre Le Français</button>
-        <button className="buttons">To Do To Day</button>
-        {/* <ul>{data && data.map((fruit) => <li key={fruit}>{fruit}</li>)}</ul> */}
       </div>
+
+      <h2>Current Projects</h2>
+      <button className="buttons">
+        <a href={linkedUrlToDo}>To Do To Day</a>
+      </button>
+      <button className="buttons">
+        <a href={linkedUrlApprendre}>Apprendre Le Francais</a>
+      </button>
     </>
   )
 }
