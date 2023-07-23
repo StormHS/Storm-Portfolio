@@ -39,6 +39,8 @@ function App() {
               <a
                 style={{ textDecoration: 'none', color: 'whitesmoke' }}
                 href={linkedUrlLinkedin}
+                target="_blank"
+                rel="noreferrer"
               >
                 LinkedIn
               </a>
@@ -47,6 +49,8 @@ function App() {
               <a
                 style={{ textDecoration: 'none', color: 'whitesmoke' }}
                 href={linkedUrlGitHub}
+                target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
@@ -61,6 +65,8 @@ function App() {
           <a
             style={{ textDecoration: 'none', color: 'whitesmoke' }}
             href={linkedUrlToDo}
+            target="_blank"
+            rel="noreferrer"
           >
             To Do To Day
           </a>
@@ -75,6 +81,8 @@ function App() {
           <a
             style={{ textDecoration: 'none', color: 'whitesmoke' }}
             href={linkedUrlApprendre}
+            target="_blank"
+            rel="noreferrer"
           >
             Apprendre Le Francais
           </a>
