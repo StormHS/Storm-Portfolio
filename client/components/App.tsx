@@ -78,7 +78,7 @@ function App() {
           fantastic team experience to bring it to life.
         </p>
         <button className="buttons">
-          <a>Apprendre Le Francais (Coming Soon)</a>
+          <a>Apprendre Le Francais (coming soon)</a>
         </button>
         <p className="description-p">
           Apprendre Le Francais: A personal ongoing project! I'm off to france
