@@ -78,14 +78,7 @@ function App() {
           fantastic team experience to bring it to life.
         </p>
         <button className="buttons">
-          <a
-            style={{ textDecoration: 'none', color: 'whitesmoke' }}
-            href={linkedUrlApprendre}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Apprendre Le Francais
-          </a>
+          <a>Apprendre Le Francais (Coming Soon)</a>
         </button>
         <p className="description-p">
           Apprendre Le Francais: A personal ongoing project! I'm off to france
