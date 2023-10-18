@@ -83,10 +83,10 @@ function App() {
         <p className="description-p">
           Apprendre Le Francais: A personal ongoing project! I'm off to france
           until November 28th and I want to learn french. I also want to keep
-          coding, so I created Apprendre le Francais so I can learn not just
+          coding, so I created Apprendre le Francais. Now I can learn not just
           french but coding languages as well. On this app you can imput what
-          you learn ad well as testing yourself on your ever growing french.
-          Check it out!
+          you learn ad well as testing yourself on your ever growing french. It
+          is available on github with npm i
         </p>
       </div>
     </>
